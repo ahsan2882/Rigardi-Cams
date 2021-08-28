@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Azeret+Mono:wght@500&family=Fira+Sans+Condensed:wght@300&family=Oswald&family=Patua+One&family=Righteous&family=Roboto:wght@300&display=swap');
+body{
+	margin: 0;
+	display: block;
+}
+#top-bar{
+	display: flex;
+	padding: 0px 11.5vw;
+	font-size: 0.9em;
+	font-family: Fira Sans Condensed, sans-serif;
+	font-weight: bolder;
+	background-color: white;
+	max-width: 100%;
+	box-sizing: border-box;
+	justify-content: space-between;
+	align-items: center;
+}
+#contact-info, #login-menu, #main-header-nav{
+	list-style-type: none;
+	list-style-position: outside;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0;
+}
+.contact-info-link{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0;
+	margin-right: 1rem;
+}
+ .login-menu-links{
+ 	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0;
+ 	margin-left: 1rem;
+ }
+ .main-nav-links{
+ 	margin: 0;
+ 	margin-left: 1.8vw;
+ 	font-size: 1.1em;
+ 	font-family: Roboto, sans-serif;
+ 	font-weight: bolder;
+ }
+.contact-info-link *{
+	margin: 0;
+	margin-right: 5px;
+}
+ .login-menu-links *{
+ 	margin: 0;
+ 	margin-left: 5px;
+ }
+.top-bar-icons{
+	color: #e2c445;
+}
+#main-header{
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	box-sizing: border-box;
+	background-image: url("inner_header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#main-nav{
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 30px 11.5vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(38,49,52,0.9);
+	width: 100%;
+	color: white;
+}
+#header-logo{
+	height: 60px;
+	width: auto;
+}
+#nav-description{
+	max-width: 100%;
+	box-sizing: border-box;
+	background-color: rgba(38,49,52,0.7);
+	height: 300px;
+	padding: 0px 11.5vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+#nav-description h1{
+	color: #e2c445;
+	font-size: 65px;
+	font-family: Azeret Mono, sans-serif;
+	margin: 0;
+}
+#nav-description h4{
+	margin: 0;
+	font-size: 1.1em;
+	font-family: Arvo, sans-serif;
+}
+#nav-span{
+	color: #e2c445;
+}
+#features-section{
+	display: flex;
+	max-width: 100%;
+	flex-direction: column;
+	box-sizing: border-box;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px 11.5vw;
+}
+#top-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+#top-section h2{
+	font-size: 1rem;
+	font-family: Oswald, sans-serif;
+	margin: 0;
+	margin-top: 5rem;
+	color: #e2c445;
+}
+#top-section h1{
+	margin: 0;
+	margin-bottom: 2rem;
+	font-size: 3.2rem;
+	font-family: Patua One, sans-serif;
+	color: rgb(38,49,52);
+}
+#bottom-section{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.feature-sections{
+	width: 30%;
+}
+#feature-gif{
+	height: 20rem;
+	width: auto;
+}
+#left-section-f{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: left;
+}
+#center-section-f{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+#right-section-f{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: right;
+}
+#bottom-section h1{
+	color: #e2c445;
+	font-size: 2.5rem;
+	font-family: Patua One, sans-serif;
+}
+#bottom-section p{
+	font-size: 1.1rem;
+	font-family: Arvo, sans-serif;
+}
+#section3{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+.section3-data{
+	padding: 43px 0px;
+	width: 25%;
+	text-align: center;
+}
+.section3-data h1{
+	font-size: 6rem;
+	margin:0;
+	font-family: Righteous, sans-serif;
+	color: white;
+}
+.section3-data h4{
+	font-size: 18px;
+	font-family: Arvo, sans-serif;
+	margin: 0;
+	color: #263134;
+}
+#num-project{
+	background-color: #dabd42;
+}
+#year-experience{
+	background-color: #d8bb42;
+}
+#num-professionals{
+	background-color: #dcbf43;
+}
+#num-cameras{
+	background-color: #dfc144;
+}
+#section4{
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 30px 11.5vw 30px 11.5vw;
+	background-color: #253237;
+}
+#section4-wrapper{
+	background-image: url("family-bg.png");
+	background-repeat: no-repeat;
+	background-position: 2% 50%;
+	height: 100%;
+}
+#section4-inner-wrapper{
+	background-image: url("home-bg.png");
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	height: 100%;
+}
+#section4-detail{
+	height: 100%;
+	padding: 16% 0px;
+}
+#section4-detail h3{
+	font-size: 40px;
+	font-family: Patua One, sans-serif;
+	color: #e2c445;
+	margin-bottom: 0;
+}
+#section4-detail h1{
+	font-size: 60px;
+	font-family: Fira Sans Condensed, sans-serif;
+	color: white;
+	margin: 0;
+}
+#section4-detail p{
+	font-size: 20px;
+	font-family: Roboto, sans-serif;
+	color: white;
+	width: 50%;
+}
+#read-more{
+	padding: 15px 20px;
+	border: none;
+	border-radius: 30px;
+	background-color: #e2c445;
+	color: #263134;
+	font-weight: 900;
+	font-family: Arvo, sans-serif;
+	font-size: 18px;
+	margin: 50px 0px;
+}
+#section5{
+	display: flex;
+	max-width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	padding: 30px 11.5vw;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+#section5 h1{
+	font-size: 50px;
+	font-family: Righteous, sans-serif;
+	margin-bottom: 10px;
+}
+#section5 p{
+	font-size: 18px;
+	font-family: Patua One, sans-serif;
+	width: 52%;
+	text-align: center;
+}
+#team-list{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 50px 0px;
+	width: 100%;
+}
+.speakers{
+	height: 220px;
+	width: auto;
+	border-radius: 50%;
+}
+.team-speakers{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.team-speakers h5{
+	font-size: 16px;
+	font-family: Fira Sans Condensed, sans-serif;
+	margin-top: 0px;
+}
+.team-speakers h2{
+	margin-bottom: 0;
+	font-size: 1.5rem;
+	font-family: Roboto, sans-serif;
+}
+.contact-team{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 50%;
+}
+.view-arrow{
+	color: #e2c445;
+}
+#subscribe{
+	max-width: 100%;
+	position: relative;
+	box-sizing: border-box;
+	padding: 0 11.5vw;
+
+	z-index: 4;
+	margin-bottom: -75px;
+}
+#subscribe-wrapper{
+	background-color: #e2c445;
+	border-radius: 100px;
+	padding: 5px 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#subscribe-wrapper h4{
+	font-size: 1.5rem;
+	font-family: Roboto, sans-serif;
+	margin-bottom: 0;
+	color: white;
+}
+#subscribe-wrapper h2{
+	font-size: 2.7rem;
+	font-family: Arvo, sans-serif;
+	margin-top: 0;
+	color: #253237;
+}
+#email-subs{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	height: fit-content;
+	max-width: 640px;
+	border-radius: 40px;
+	background-color: white;
+}
+#input-email{
+	flex: 1 1 0%;
+	height: 100%;
+	border-radius: 40px;
+}
+#input-email input{
+	background-color: white;
+	border-radius: 40px;
+	width: 100%;
+	padding: 0px 20px;
+	box-sizing: border-box;
+	appearance: none;
+	border: none;
+	height: 60px;
+	font-size: 22px;
+	font-family: Roboto, sans-serif;
+}
+#email-subs a{
+	padding: 0px 16px;
+	background-color: #ae4c1c;
+	text-decoration: none;
+	color: white;
+	height: 60px;
+	width: 30%;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	font-size: 1.3rem;
+	font-weight: bolder;
+	font-family: Azeret Mono, sans-serif;
+	align-items: center;
+}
+#contact-section{
+	background-color: #253237;
+	padding: 100px 11.5vw 50px 11.5vw;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+#contact-section p{
+	font-size: 20px;
+	font-family: Roboto, sans-serif;
+	font-weight: bolder;
+	width: 75%;
+}
+#contact-link-footer{
+	display: flex;
+	width: 25%;
+	justify-content: space-around;
+	align-items: center;
+}
+.contact-button-footer{
+	background-color: #e2c445;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	font-size: 20px;
+	color: #263134;
+}
+#footer{
+	max-width: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #1c2629;
+	padding: 5px 20vw;
+}
+#footer-wrapper{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#footer-top{
+	position: absolute;
+	right: 11.5vw;
+}
