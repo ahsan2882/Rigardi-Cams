@@ -3,10 +3,11 @@
 <head>
 	<title>Rigardi</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<header id="header" class="container">
-		<ul id="header-contact">
+	<header class="header container">
+		<ul class="header-contact">
 			<li class="contact-links">
 				<div>
 					<i class="fas fa-phone-alt"></i>
@@ -32,7 +33,7 @@
 				</div>
 			</li>
 		</ul>
-		<ul id="header-login">
+		<ul class="header-login">
 			<li class="login-links">
 				<div>
 					<i class="far fa-user-circle"></i>
@@ -45,7 +46,7 @@
 				<div>
 					<i class="fas fa-shopping-cart"></i>
 				</div>
-				<div id="cart-items">0</div>
+				<div class="cart-items">0</div>
 			</li>
 			<li class="login-links">
 				<div>
@@ -54,12 +55,12 @@
 			</li>
 		</ul>
 	</header>
-	<div id="main-navigation">
-		<div id="nav-wrapper">
-			<div id="main-nav" class="container">
-				<img src="logo2.png" id="nav-logo">
+	<section class="main-navigation">
+		<div class="nav-wrapper">
+			<div class="main-nav container">
+				<img src="logo2.png" class="nav-logo">
 				<nav>
-					<ul id="nav-bar">
+					<ul class="nav-bar">
 						<li>HOME&ensp;></li>
 						<li>ABOUT US&ensp;></li>
 						<li>PRODUCTS&ensp;></li>
@@ -71,27 +72,30 @@
 				</nav>
 			</div>
 		</div>
-		<div id="description-wrapper">
-			<div id="nav-description" class="container">
-				<h1>About us</h1>
-				<h4>Home&emsp;>>&emsp;<span id="about-us">About us</span></h4>
+		<div class="description-wrapper">
+			<div class="nav-description container">
+				<h1>Contact us</h1>
+				<ul class="breadcrumbs">
+					<li>Home&emsp;>>&emsp;</li>
+					<li>Contact us</li>
+				</ul>
 			</div>
 		</div>
-	</div>
-	<div id="feature-section" class="container">
+	</section>
+	<div class="feature-section container">
 		<h4>CCTV SYSTEMS</h4>
 		<h1>See our features</h1>
-		<div id="bottom-section-f">
-			<div id="left-section-f">
+		<div class="bottom-section-f">
+			<div class="left-section-f">
 				<h2>01.</h2>
 				<p>Sed nibh sapien, auctor nec eleifend in, mattis non purus. Aliquam bibendum tempor ligula, id suscipit justo euismod quis.</p>
 				<h2>02.</h2>
 				<p>Nullam eget arcu et erat sollicitudin suscipit eu eget nisl. Fusce id mauris consequat, eleifend erat nec, rutrum orci. Aliquam erat volutpat.</p>
 			</div>
-			<div id="center-section-f">
-				<img src="monitor_cam.gif" id="feature-img">
+			<div class="center-section-f">
+				<img src="monitor_cam.gif" class="feature-img">
 			</div>
-			<div id="right-section-f">
+			<div class="right-section-f">
 				<h2>03.</h2>
 				<p>Sed nibh sapien, auctor nec eleifend in, mattis non purus. Aliquam bibendum tempor ligula, id suscipit justo euismod quis.</p>
 				<h2>04.</h2>
@@ -99,42 +103,42 @@
 			</div>
 		</div>
 	</div>
-	<div id="data-section">
-		<div id="num-objects" class="data-container">
+	<div class="data-section">
+		<div class="num-objects data-container">
 			<h1>450</h1>
 			<h3>Objects protected</h3>
 		</div>
-		<div id="years-experience" class="data-container">
+		<div class=" years-experience data-container">
 			<h1>16</h1>
 			<h3>Years of experience</h3>
 		</div>
-		<div id="num-professionals" class="data-container">
+		<div class="num-professionals data-container">
 			<h1>35</h1>
 			<h3>Professionals</h3>
 		</div>
-		<div id="num-cameras" class="data-container">
+		<div class=" num-cameras data-container">
 			<h1>1200+</h1>
 			<h3>Cameras installed</h3>
 		</div>
 	</div>
-	<div id="section3">
-		<div id="bg1" class="container container-no-padding">
-			<div id="bg2" class="container container-no-padding">
-				<div id="overlay-color" class="container">
-					<div id="section3-wrapper">
+	<div class="section3">
+		<div class="bg1 container container-no-padding">
+			<div class="bg2 container container-no-padding">
+				<div class="overlay-color container">
+					<div class="section3-wrapper">
 						<h2>Ensure the peace of</h2>
 						<h1>your family and home</h1>
 						<p>Vestibulum commodo at dolor eu aliquam. In congue ornare augue eu scelerisque. Duis vestibulum, dolor sed facilisis laoreet.</p>
-						<a href="#" id="read-more">Read more&emsp;<i class="fas fa-arrow-right"></i></a>
+						<a href="#">Read more&emsp;<i class="fas fa-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div id="team-section" class="container">
+	<div class="team-section container">
 		<h1>Our Team</h1>
 		<p>Pellentesque mattis mauris ac tortor volutpat, eu fermentum sapien euismod. In id tempus metus. Donec eu volutpat nibh, in maximus  ligula.</p>
-		<div id="speakers-list" class="container">
+		<div class="speakers-list container">
 			<div class="speakers">
 				<img src="speaker_01.jpg" class="speaker-image">
 				<h2>John Richards</h2>
@@ -168,40 +172,40 @@
 				</div>
 			</div>
 		</div>
-		<a href="#" id="view-all">
+		<a href="#" class="view-all">
 			<div>View all&emsp;</div>
 			<i class="fas fa-arrow-right"></i>
 		</a>
 	</div>
-	<div id="subscribe-section" class="container">
-		<div id="subscribe-wrapper">
+	<div class="subscribe-section container">
+		<div class="subscribe-wrapper">
 			<img src="subscribe-rss-button2.png">
-			<div id="right-container">
-				<div id="offer">
+			<div class="right-container">
+				<div class="offer">
 					<h3>Want to know about our offers frst?</h3>
 					<h1>Subscribe our newsletter</h1>
 				</div>
-				<div id="input-email">
+				<div class="input-email">
 					<input type="email" name="email" placeholder="Your email-address">
-					<a href="#" id="subscribe">SUBSCRIBE</a>
+					<a href="#" class="subscribe">SUBSCRIBE</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div id="contact-section">
-		<div id="contact-wrapper" class="container">
+	<div class="contact-section">
+		<div class="contact-wrapper container">
 			<p>Pellentesque congue non augue vitae pellentesque. Morbi sollicitudin eleifend rhoncus. Mauris vel nisl a massa viverra sollicitudin semper a diam.</p>
-			<div id="contact-bottom-link">
+			<div class="contact-bottom-link">
 				<i class="fab fa-twitter contact-btns"></i><i class="fab fa-facebook contact-btns"></i><i class="fab fa-instagram contact-btns"></i><i class="fab fa-youtube contact-btns"></i>
 			</div>
 		</div>
 	</div>
-	<footer id="footer">
-		<div id="footer-wrapper" class="container">
+	<footer class="footer">
+		<div class="footer-wrapper container">
 			<p><a href="#">Like-themes</a> © All Rights Reserved - 2018 - <a href="#">Purchase Theme</a></p>
 		</div>
-		<div id="footer-wrapper2" class="container">
-			<a href="#" id="footer-top"><img src="go-top.png"></a>
+		<div class="footer-wrapper2 container">
+			<a href="#" class="footer-top"><img src="go-top.png"></a>
 		</div>	
 	</footer>
 	<script src="https://kit.fontawesome.com/6fcb08b902.js" crossorigin="anonymous"></script>
