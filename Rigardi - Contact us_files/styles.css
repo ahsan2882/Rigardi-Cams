@@ -113,10 +113,12 @@ body{
 	font-family: Azeret Mono, sans-serif;
 	margin: 0;
 }
-.breadcrumbs{
-	list-style: none;
+.nav-description h4{
 	font-size: 1.2rem;
 	font-family: Arvo, sans-serif;
+}
+.breadcrumbs{
+	list-style: none;
 	padding: 0;
 	display: flex;
 }
@@ -485,12 +487,10 @@ body{
 .left-section-contact h1{
 	font-size: 2rem;
 	border-bottom: 2px solid white;
-	font-family: Arvo, sans-serif;
 	width: 50%;
 }
 .left-section-contact p{
 	font-size: 1.2rem;
-	font-family: Open Sans, sans-serif;
 	line-height: 0.2;
 }
 .left-section-contact a{
@@ -514,18 +514,13 @@ body{
 	margin-bottom: 4rem;
 	box-sizing: border-box;
 }
-#email-heading{
-	margin-bottom: 2rem;
-}
 #email-addr{
 	font-size: 1.2rem;
+	margin-top: 2rem;
 }
 .form{
 	width: 66%;
 	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 }
 .form-intro{
 	text-align: center;
@@ -533,19 +528,16 @@ body{
 }
 .form-intro h1{
 	font-size: 3rem;
-	font-family: Roboto, sans-serif;
 	margin-top: 0;
 }
 .form-intro > p{
 	margin-bottom: 3rem;
-	font-family: Fira Sans Condensed, sans-serif;
 	font-size: 1.1rem;
 }
 .form-inputs{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	font-family: Roboto, sans-serif;
 	box-sizing: border-box;
 }
 .personal-details{
@@ -570,7 +562,6 @@ body{
 	box-sizing: border-box;
 	border: none;
 	font-size: 1.2rem;
-	font-family: Roboto, sans-serif;
 	background-color: black;
 	outline: none;
 	border-bottom: 2px solid white;
@@ -588,8 +579,6 @@ body{
 .submit-button{
 	padding: 1.5rem 6rem;
 	background-color: var(--clr-primary);
-	font-size: 1.5rem;
-	font-family: Helvetica, sans-serif;
 	box-sizing: border-box;
 	border: none;
 	outline: none;
@@ -618,11 +607,9 @@ body{
 }
 .feedback-wrapper h1{
 	font-size: 3rem;
-	font-family: Arvo, sans-serif;
 }
 .feedback-wrapper p{
 	font-size: 1.2rem;
-	font-family: Oswald, sans-serif;
 }
 .feedback-wrapper a{
 	background-color: var(--clr-primary);
@@ -630,9 +617,7 @@ body{
 	padding: 1.5rem;
 	text-decoration: none;
 	margin-top: 3rem;
-	font-size: 1.3rem;
-	font-family: Roboto, sams-serif;
-	width: 40%;
+	width: 30%;
 	color:black;
 }
 @media (max-width: 1200px){
@@ -750,39 +735,17 @@ body{
 		width: 80%;
 		text-align: center;
 	}
-	/* .left-section-contact h1{
-	font-size: 2rem;
-	border-bottom: 2px solid white;
-	width: 50%;
-} */
 	.left-section-contact h1{
-		width: 70%;
 		margin: 0 auto;
 	}
 	.form{
-		width: 90%;
-		border-top: 2px solid white;
-		border-bottom: 2px solid white;
-		margin-top: 2rem;
-		margin-bottom: 2rem;
-		align-items: center;
-	}
-	.form-intro h1{
-		margin-top: 2rem;
-		margin-bottom: 2rem;
-		font-size: 2rem;
+		width: 80%;
 	}
 	.firstName, .email-input{
 		margin-right: 0.5rem;
 	}
 	.lastName, .phone{
 		margin-left: 0.5rem;
-	}
-	.personal-details{
-		font-size: 1.1rem;
-	}
-	.message-input{
-		font-size: 1.1rem;
 	}
 	.feedback{
 		flex-direction: column;
@@ -792,14 +755,6 @@ body{
 	}
 	.feedback-wrapper{
 		width: 80%;
-		align-items: center;
-		text-align: center;
-	}
-	.feedback-wrapper h1{
-		font-size: 2rem;
-	}
-	.feedback-wrapper p{
-		font-size: 1rem;
 	}
 }
 @media (max-width: 800px){
@@ -852,26 +807,13 @@ body{
 		margin-bottom: 0;
 	}
 	.form{
-		width: 98%;
+		width: 80%;
 	}
 	.form-inputs{
 		flex-direction: column;
-		width: 80%;
-	}
-	.message-input{
-		width: 80%;
-	}
-	.firstName, .email-input{
-		margin-right: 0;
-	}
-	.lastName, .phone{
-		margin-left: 0;
 	}
 	.personal-details{
 		flex: 0 0 100%;
-	}
-	.feedback-wrapper a{
-		width: 50%;
 	}
 }
 @media (max-width: 500px){
@@ -905,17 +847,5 @@ body{
 	}
 	.contact-bottom-link{
 		width: 80%;
-	}
-	.form-inputs{
-		width: 90%;
-	}
-	.message-input{
-		width: 90%;
-	}
-	.feedback-wrapper{
-		width: 90%;
-	}
-	.feedback-wrapper a{
-		width: 70%;
 	}
 }
