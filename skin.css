@@ -46,6 +46,7 @@ body {
 }
 .contact-links,
 .login-links {
+  color: #fff;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -60,7 +61,7 @@ body {
   width: 35rem;
 }
 #header-login {
-  width: 15rem;
+  width: 8rem;
 }
 #cart-items {
   width: 1.25em;
@@ -101,7 +102,7 @@ body {
   width: 13rem;
 }
 #nav-bar {
-  width: 42rem;
+  width: 32rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -963,4 +964,8 @@ color:var(--clr-background);
   align-items: flex-start;
   width: 80ch;
   
+}
+.footer-top-img{
+  height: 100%;
+  background-color: black;
 }
