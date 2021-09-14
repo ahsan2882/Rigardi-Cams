@@ -574,6 +574,10 @@ body{
 	outline: none;
 	margin-bottom: 5rem;
 }
+.feedback-wrap{
+	background-color: white;
+	width: 100%;
+}
 .feedback{
 	display: flex;
 	justify-content: space-between;
