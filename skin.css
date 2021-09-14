@@ -943,10 +943,10 @@ color:var(--clr-background);
 .vision-wrapper{
   display: flex;
   justify-content: center;
-
+  align-items: center;
 }
 .vision-wrapper img{
-  max-width: 50ch;
+  max-width: 40ch;
   border-radius: 50px;
 
 }
@@ -962,7 +962,6 @@ color:var(--clr-background);
 }
 .content-right{
   padding: 0px 40px;
-  padding-top: 4em;
   display: flex;
   flex-direction: column;
   width: 80ch;
