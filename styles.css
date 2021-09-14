@@ -437,29 +437,23 @@ body{
   color: white;
 }
 /*footer*/
-.footer{
-	background-color: rgb(45,125,225);
+#footer {
+  box-sizing: border-box;
+  background-color: var(--clr-background);
 }
-.footer-wrapper{
-	font-family: Azeret Mono, sans-serif;
-	text-align: center;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	margin-bottom: -5rem;
+#footer-wrapper {
+  font-family: Azeret Mono, sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: -5rem;
 }
-.footer-wrapper a{
-	text-decoration: none;	
-	color: white;
+#footer-wrapper a {
+  text-decoration: none;
+  color: white;
 }
-.footer-wrapper p{
-	color: white;
-}
-.footer-wrapper2{
-	display: flex;
-	z-index: 5;
-	justify-content: flex-end;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+#footer-wrapper p {
+  color: white;
 }
 .contact-us{
 	display: flex;
