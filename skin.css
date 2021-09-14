@@ -33,7 +33,7 @@ body {
   justify-content: space-between;
   align-items: center;
   color: rgb(23, 107, 209);
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   box-sizing: border-box;
 }
 #header-contact,
@@ -108,7 +108,7 @@ body {
   align-items: center;
   padding: 0;
   color: white;
-  font-family: Roboto, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   list-style-type: none;
   font-weight: bolder;
 }
@@ -124,12 +124,12 @@ body {
 }
 #nav-description h1 {
   font-size: 3rem;
-  font-family: Azeret Mono, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   margin: 0;
 }
 #nav-description h4 {
   font-size: 1.2rem;
-  font-family: Arvo, sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 #about-us {
   color: var(--clr-secondary);
@@ -223,13 +223,13 @@ body {
 }
 .data-container h1 {
   font-size: 5rem;
-  font-family: Righteous, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   color: white;
   margin: 0;
 }
 .data-container h3 {
   font-size: 1.1rem;
-  font-family: Arvo, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   margin: 0;
 }
 #num-objects {
@@ -252,30 +252,30 @@ body {
 #bg1 {
   background-image: url("img/family-bg.png");
   box-sizing: border-box;
-  background-repeat: no-repeat;
-  background-size: 20% auto;
-  background-position: 5% 50%;
-  display: flex;
+	background-repeat: no-repeat;
+	background-size: 20% auto;
+	background-position: 5% 50%;
+	display: flex;
 }
 #bg2 {
   background: url("img/home-bg345.jpg");
   background-repeat: no-repeat;
-  background-size: 50% auto;
-  margin: 0;
-  background-position: right;
-  width: 100%;
+	background-size: auto;
+	margin: 0;
+	background-position: 95% 50%;
+	width: 100%;
   
 }
 /* #overlay-color {
 } */
 #section3-wrapper {
   display: flex;
-  box-sizing: border-box;
-  flex-direction: column;
-  padding: 0;
-  justify-content: space-around;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
+	box-sizing: border-box;
+	flex-direction: column;
+	padding: 0;
+	justify-content: space-around;
+	padding-top: 12rem;
+	padding-bottom: 12rem;
 }
 .container-no-padding {
   padding-left: 0;
@@ -283,34 +283,35 @@ body {
 }
 #section3-wrapper h2 {
   font-size: 2rem;
-  margin: 0;
-  /* font-family: Patua One, sans-serif; */
-  color: white;
+	margin: 0;
+	/* font-family: Patua One, sans-serif; */
+	color: white;
 }
 #section3-wrapper h1 {
   font-size: 3rem;
-  font-family: Fira Sans Condensed, sans-serif;
-  font-weight: 1000;
-  margin: 0;
-  margin-bottom: 2rem;
+	font-family: "Fira Sans", sans-serif;
+	font-weight: 1000;
+	margin: 0;
+	margin-bottom: 2rem;
+	/* color: rgb(226,197,69); */
   color: var(--clr-primary);
 }
 #section3-wrapper p {
   font-size: 1.2rem;
-  font-family: Roboto, sans-serif;
-  color: white;
-  width: 45%;
+	font-family: Roboto, sans-serif;
+	color: white;
+	width: 45%;
 }
 #section3-wrapper a {
   font-family: Arvo, sans-serif;
-  margin-top: 5rem;
-  text-align: center;
-  text-decoration: none;
+	margin-top: 5rem;
+	text-align: center;
+	text-decoration: none;
   color: var(--clr-white-fonts);
   background-color: var(--clr-primary);
   border-radius: 1rem;
-  padding: 0.5rem 1.2rem;
-  width: 15%;
+	padding: 0.5rem 1.2rem;
+	width: 15%;
 }
 /*Our team members*/
 .our-guards {
@@ -537,7 +538,7 @@ body {
  .heading-main2{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  text-align: center;
 }
  .subhead-main{
    color: var(--clr-secondary);
@@ -631,8 +632,8 @@ body {
   }
   #section3-wrapper {
     padding-top: 4rem;
-    padding-bottom: 4rem;
-    align-items: center;
+		padding-bottom: 4rem;
+		align-items: center;
   }
   #section3-wrapper h2,
   #section3-wrapper h1 {
@@ -762,6 +763,10 @@ body {
   #input-email a {
     width: 100%;
     font-size: 1.1rem;
+  }
+  .content-right{
+    text-align: center;
+    align-items: center;
   }
   #contact-wrapper p {
     width: 100%;
@@ -961,7 +966,6 @@ color:var(--clr-background);
   padding-top: 4em;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   width: 80ch;
   
 }

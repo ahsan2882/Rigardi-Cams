@@ -336,6 +336,7 @@ body{
 #subscribe-section {
   display: flex;
   justify-content: space-around;
+  box-sizing: border-box;
   border-radius: 5rem;
   background-color: var(--clr-primary);
   z-index: 99;
@@ -398,84 +399,12 @@ body{
   text-decoration: none;
   color: white;
   font-family: Azeret Mono, sans-serif;
-  background-color: var(--clr-background);
+  background-color: black;
   border-radius: 40px;
   z-index: 3;
   padding: 1.2rem 0;
   text-align: center;
   width: 50%;
-}
-.subscribe-section{
-	display: flex;
-	justify-content: space-around;
-	border-radius: 5rem;
-	background-color: rgb(45,125,225);
-	z-index: 99;
-	max-width: 90%;
-	margin-bottom: -4rem;
-	position: relative;
-}
-.subscribe-wrapper{
-	display: flex;
-	width: 100%;
-	padding: 1.8rem 3.5rem;
-	justify-content: space-between;
-	align-items: center;
-}
-.right-container{
-	display: flex;
-	width: 90%;
-	justify-content: space-between;
-	align-items: center;
-}
-.offer{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	max-width: 30rem;
-}
-.offer h3{
-	font-size: 1.5rem;
-	font-family: Roboto, sans-serif;
-	color: rgb(226,197,69);
-	margin: 0;
-	margin-bottom: 1rem;
-}
-.offer h1{
-	font-size: 2rem;
-	font-family: Arvo, sans-serif;
-	margin: 0;
-	color: white;
-}
-.input-email{
-	border-radius: 40px;
-	background-color: white;
-	display: flex;
-	justify-content:space-between;
-	align-items: center;
-	width: 50%;
-}
-.input-email input{
-	appearance: none;
-	outline: none;
-	padding: 0.3rem 1.2rem;
-	border: none;
-	font-family: Roboto, sans-serif;
-	border-radius: 40px;
-	font-size: 1.3rem;
-	width: 50%;
-}
-.input-email a{
-	font-size: 1.5rem;
-	text-decoration: none;
-	color: black;
-	font-family: Azeret Mono, sans-serif;
-	background-color: rgb(226,197,69);
-	border-radius: 40px;
-	z-index: 3;
-	padding: 1.2rem 0;
-	text-align: center;
-	width: 50%;
 }
 /*contact us*/
 .contact-section{
@@ -761,27 +690,27 @@ body{
 	.speaker-contact{
 		width: 40%;
 	}
-	.subscribe-section{
-		max-width: 100%;
-		margin-bottom: -5.7rem;
-	}
-	.subscribe-wrapper{
-		padding: 1rem 2rem;
-		justify-content: center;
-	}
-	.subscribe-wrapper img{
-		display: none;
-	}
-	.right-container{
-		flex-direction: column;
-	}
-	.offer{
-		margin-bottom: 1rem;
-		text-align: center;
-	}
-	.input-email{
-		width: 100%;
-	}
+	#subscribe-section {
+    max-width: 100%;
+    margin-bottom: -5.7rem;
+  }
+  #subscribe-wrapper {
+    padding: 1rem 2rem;
+    justify-content: center;
+  }
+  #subscribe-wrapper img {
+    display: none;
+  }
+  #right-container {
+    flex-direction: column;
+  }
+  #offer {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  #input-email {
+    width: 100%;
+  }
 	.contact-wrapper p{
 		width: 80%;
 	}
@@ -869,25 +798,25 @@ body{
 	.speaker-contact{
 		width: 30%;
 	}
-	.subscribe-section{
-		margin: 0;
-		margin-bottom: -5rem;
-		max-width: 100%;
-	}
-	.input-email{
-		width: 80%;
-		flex-direction: column;
-		background-color: transparent;
-	}
-	.input-email input{
-		margin-bottom: 2rem;
-		padding-top: 0.7rem;
-		width: 80%;
-		padding-bottom: 0.7rem;
-	}
-	.input-email a{
-		width: 70%;
-	}
+	#subscribe-section {
+    margin: 0;
+    margin-bottom: -5rem;
+    max-width: 100%;
+  }
+  #input-email {
+    width: 80%;
+    flex-direction: column;
+    background-color: transparent;
+  }
+  #input-email input {
+    margin-bottom: 2rem;
+    padding-top: 0.7rem;
+    width: 80%;
+    padding-bottom: 0.7rem;
+  }
+  #input-email a {
+    width: 70%;
+  }
 	.contact-wrapper p{
 		width: 90%;
 	}
@@ -924,28 +853,28 @@ body{
 	.section3-wrapper a{
 		width: 70%;
 	}
-	.subscribe-section{
-		padding: 0;
-	}
-	.subscribe-wrapper{
-		padding: 2rem 0;
-	}
+	#subscribe-section {
+    padding: 0;
+  }
+  #subscribe-wrapper {
+    padding: 2rem 0;
+  }
 	.offer h3{
 		font-size: 1rem;
 	}
 	.offer h1{
 		font-size: 1.2rem;
 	}
-	.input-email input{
-		margin-bottom: 1.25rem;
-		width: 100%;
-		padding: 0.7rem;
-		font-size: 1rem;
-	}
-	.input-email a{
-		width: 100%;
-		font-size: 1.1rem;
-	}
+	#input-email input {
+    margin-bottom: 1.25rem;
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+  }
+  #input-email a {
+    width: 100%;
+    font-size: 1.1rem;
+  }
 	.contact-wrapper p{
 		width: 100%;
 	}
