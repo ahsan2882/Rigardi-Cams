@@ -115,6 +115,22 @@ header {
   list-style-type: none;
   font-weight: bolder;
 }
+#nav-bar a{
+  text-decoration: none;
+  color: var(--clr-background);
+}
+.hamburger{
+  display: none;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--clr-white-fonts);
+}
 /* -------------------------------------------------------------------------------------------------- Section Hero Start----------------------------------------------- */
 .section-hero
 {
@@ -366,9 +382,11 @@ color:var(--clr-background);
 }
 .accre-card{
   max-width: 30ch;
-  background-color: var(--clr-secondary);
+  /* background-color: var(--clr-secondary); */
+  border: 2px solid black;
   border-radius: 30px;
   justify-self: center;
+  margin: 1rem;
 }
 .accre-card a{
   text-decoration: none;
@@ -382,7 +400,7 @@ color:var(--clr-background);
   align-items: center;
 }
 .card-contain img{
- width: max-content;
+ width: 100%;
  min-height: min-content;
  
 }
@@ -922,9 +940,6 @@ background-color: var(--clr-primary);
   #header {
     display: none;
   }
-  #nav-bar {
-    display: none;
-  }
   #feature-section {
     padding-bottom: 2rem;
   }
@@ -1026,10 +1041,46 @@ background-color: var(--clr-primary);
     width: 40%;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
+  header{
+    display: none;
+  }
   .box1{
     width: 80%;
     text-align: center;
+  }
+  #nav-bar{
+    position: fixed;
+    left: -100%;
+    top: 7rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+  .hamburger {
+      display: block;
+      cursor: pointer;
+  }
+  .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+      -webkit-transform: translateY(8px) rotate(45deg);
+      transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+      -webkit-transform: translateY(-8px) rotate(-45deg);
+      transform: translateY(-8px) rotate(-45deg);
+  }
+  #nav-bar.active {
+      left: 0;
+  }
+  .nav-bar-link {
+      margin: 2.5rem 0;
   }
   .container-2{
     flex-direction: column;
@@ -1091,8 +1142,32 @@ background-color: var(--clr-primary);
   }
 }
 @media (max-width: 500px) {
+  /* #header-contact, #header-login{
+    flex-direction: column;
+  } */
   .section-hero{
+    background-position: top;
     text-align: center;
+    min-height: 100vh;
+    align-items: center;
+  }
+  .sec-hero-btn{
+    margin-bottom: 2rem;
+  }
+  .col-2 h1{
+    font-size: 3rem;
+  }
+  .paragraph-hero{
+    font-size: 1.2rem;
+  }
+  .sec-btn{
+    font-size: 0.9rem;
+  }
+  .accre-card{
+    max-width: 20ch;
+  }
+  .card-contain h3{
+    font-size: 0.8rem;
   }
   #section3-wrapper a {
     width: 70%;
