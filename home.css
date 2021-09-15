@@ -375,6 +375,144 @@ color:var(--clr-background);
   padding: 0.7rem 1.5rem;
   color: var(--clr-background);
 }
+/* ---------------------------------------------------------Testimonsls----------------------------------------------------- */
+.container-6 {
+  display: flex;
+justify-content: center;
+padding: 4em 0 0;
+
+  min-height: 39.5em;
+  background-color: whitesmoke;
+}
+.container-6 .content {
+  margin: 0 .2em 0;
+  width: 30vw;
+}
+.container-6 .content h4 {
+ /* margin: 2em 2em 0; */
+ text-align: left;
+}
+.container-6 .content h2 {
+margin: -.2 1.8em 0;
+    text-align: left;
+  
+}
+.curesol {
+  height: 25em;
+  position: relative;
+  overflow-x: hidden;
+  width:40% ;
+  border-radius: 20px;;
+  /* margin: 0 5em 5em; */
+
+}
+.slider {
+  height: 100%;
+  display: flex;
+  width: 300%;
+  transition:all .4s;
+  background-color: white;
+  box-shadow: var(--clr-primary) 1px 2px 2px 1px;
+  animation: any 2s all;
+}
+
+
+.content {
+  background: url(images/clients-bg.png);
+  background-position: center;
+  background-size: cover;
+  width:40ch
+ /* margin: 0 3em 0;
+  */
+}
+.content h4 {
+  color: var(--clr-primary);
+  font-weight: bolder;
+  margin: 4em 63px 0px;
+  padding: 0px 2em 1em;
+  font-size: 2rem;
+}
+.content h2 {
+  font-size: 2.8em;
+  opacity: 0.8;
+  color: black;
+  text-align: left;
+  line-height: 1em;
+  font-weight:bolder;
+ /* margin: 4em 0 0;
+  */
+  padding: 0 1em 0;
+}
+.slide {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.slide img {
+  border-radius: 50%;
+}
+.slide h4 {
+  color: var(--clr-primary);
+  font-weight: 400;
+  margin: 1.5em 0 .4;
+}
+.slide h3 {
+  margin: .2em 0 0;
+}
+.slide p {
+  color: grey;
+  max-width: 25em;
+  line-height: 1.6em;
+  font-weight: 300;
+  margin: 2em 0 .4em;
+  font-size: 1em;
+}
+.slide img {
+  margin: 0em 0 0;
+}
+.controls {
+  position: absolute;
+  top: 50%;
+  cursor:pointer; 
+}
+.left {
+padding:0px 40px;
+font-size: 1.5rem;
+}
+.right {
+  position: absolute;
+  left: 700px;
+  font-size: 1.5rem;
+}
+.left .fas  {
+  font-size: 1.5em;
+}
+.right .fas  {
+  font-size: 1.5em;
+}
+
+.scrollFade {
+  
+  opacity: 1;
+  pointer-events: all;
+}
+
+.scrollFade--hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.scrollFade--visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.scrollFade--animate {
+  transition: opacity 3s ease-in-out;
+}
+/* --------------------------------------------------------Accrediation section------------------------------------------------------------ */
 .accre-sec{
   text-align: center;
   background-color: var(--clr-white-fonts);
