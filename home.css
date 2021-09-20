@@ -61,12 +61,17 @@ header {
 .login-links div {
   margin-left: 0.65em;
 }
+#search-bar-wrap {
+  border-bottom: 1px solid white;
+}
+.fa-search {
+  padding-right: 0.5rem;
+}
 .search-bar-header {
   width: 100%;
   outline: none;
   border: none;
   background-color: black;
-  border-bottom: 1px solid white;
 }
 .search-bar-header::placeholder {
   color: white;
