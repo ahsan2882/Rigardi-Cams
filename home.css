@@ -794,6 +794,7 @@ li {
 }
 .about-img {
   width: 90%;
+  border-radius: 2rem;
 }
 .abt-btn {
   padding: 20px 0;

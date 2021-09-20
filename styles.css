@@ -1,31 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 :root {
   --clr-primary: #00c1cf;
   --clr-primary-overlay: rgba(0, 193, 207, 0.9);
 }
-@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Azeret+Mono:wght@500&family=Fira+Sans+Condensed:wght@300&family=Oswald&family=Patua+One&family=Righteous&family=Roboto:wght@300&display=swap");
+
 * {
   box-sizing: border-box;
-}
-body {
   margin: 0;
-  background-color: rgb(0, 0, 0);
-  display: block;
-  color: white;
-  font-family: "Fira Sans", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans";
+  scroll-behavior: smooth;
 }
+/* body{
+    background-color: black;
+} */
 .container {
-  max-width: 75rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  max-width: 73.5rem;
+  /* padding-left: 1.5rem;
+  padding-right: 1.5rem; */
   margin: 0 auto;
 }
-/*header section*/
-#header {
+header {
+  background-color: black;
+  box-sizing: border-box;
+  padding: 0.5em 0;
+}
+.header-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgb(23, 107, 209);
   box-sizing: border-box;
+  padding: 0.5em 0;
 }
 #header-contact,
 #header-login {
@@ -37,7 +43,7 @@ body {
 }
 .contact-links,
 .login-links {
-  color: #fff;
+  color: var(--clr-primary);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -48,12 +54,17 @@ body {
 .login-links div {
   margin-left: 0.65em;
 }
+#search-bar-wrap {
+  border-bottom: 1px solid white;
+}
+.fa-search {
+  padding-right: 0.5rem;
+}
 .search-bar-header {
   width: 100%;
   outline: none;
   border: none;
   background-color: black;
-  border-bottom: 1px solid white;
 }
 .search-bar-header::placeholder {
   color: white;
@@ -63,6 +74,7 @@ body {
 }
 #header-login {
   width: 18rem;
+  /* border: 2px solid red; */
 }
 #cart-items {
   width: 1.25em;
@@ -84,7 +96,7 @@ body {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: var(--clr-white-fonts);
+  background-color: white;
 }
 /*main navigation section*/
 #main-navigation {
