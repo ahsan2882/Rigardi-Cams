@@ -33,7 +33,6 @@ body {
   justify-content: space-between;
   align-items: center;
   color: rgb(23, 107, 209);
-  font-family: "Fira Sans", sans-serif;
   box-sizing: border-box;
 }
 #header-contact,
@@ -130,7 +129,6 @@ body {
   align-items: center;
   padding: 0;
   color: white;
-  font-family: "Fira Sans", sans-serif;
   list-style-type: none;
   font-weight: bolder;
 }
@@ -150,12 +148,10 @@ body {
 }
 #nav-description h1 {
   font-size: 3rem;
-  font-family: "Fira Sans", sans-serif;
   margin: 0;
 }
 #nav-description h4 {
   font-size: 1.2rem;
-  font-family: "Fira Sans", sans-serif;
 }
 #about-us {
   color: var(--clr-secondary);
@@ -173,13 +169,11 @@ body {
 #feature-section h4 {
   font-size: 1.2rem;
   color: var(--clr-secondary);
-  /* font-family: Oswald, sans-serif; */
   margin: 0;
   margin-top: 5rem;
 }
 #feature-section h1 {
   font-size: 4rem;
-  /* font-family: Patua One, sans-serif; */
   margin: 0;
   margin-bottom: 2rem;
 }
@@ -193,7 +187,6 @@ body {
 }
 #bottom-section-f h2 {
   font-size: 1.3rem;
-  /* font-family: Patua One, sans-serif; */
   color: var(--clr-primary);
   padding: var(--padding-top-bottom);
 }
@@ -249,13 +242,11 @@ body {
 }
 .data-container h1 {
   font-size: 5rem;
-  font-family: "Fira Sans", sans-serif;
   color: white;
   margin: 0;
 }
 .data-container h3 {
   font-size: 1.1rem;
-  font-family: "Fira Sans", sans-serif;
   margin: 0;
 }
 #num-objects {
@@ -309,12 +300,10 @@ body {
 #section3-wrapper h2 {
   font-size: 2rem;
   margin: 0;
-  /* font-family: Patua One, sans-serif; */
   color: white;
 }
 #section3-wrapper h1 {
   font-size: 3rem;
-  font-family: "Fira Sans", sans-serif;
   font-weight: 1000;
   margin: 0;
   margin-bottom: 2rem;
@@ -323,12 +312,10 @@ body {
 }
 #section3-wrapper p {
   font-size: 1.2rem;
-  font-family: Roboto, sans-serif;
   color: white;
   width: 45%;
 }
 #section3-wrapper a {
-  font-family: Arvo, sans-serif;
   margin-top: 5rem;
   text-align: center;
   text-decoration: none;
@@ -353,13 +340,11 @@ body {
 }
 #team-section h1 {
   font-size: 3rem;
-  /* font-family: Righteous, sans-serif; */
   margin: 0;
   color: var(--clr-primary);
 }
 #team-section p {
   font-size: 1.2rem;
-  /* font-family: Patua One, sans-serif; */
   text-align: center;
   margin-bottom: 3rem;
   color: var(--clr-background);
@@ -387,13 +372,11 @@ body {
 .speakers h2 {
   margin: 0;
   margin-top: 2rem;
-  font-family: Roboto, sans-serif;
   color: var(--clr-primary);
 }
 .speakers h4 {
   margin: 0;
   margin-bottom: 2rem;
-  font-family: Fira Sans Condensed, sans-serif;
   color: var(--clr-background);
 }
 .speaker-contact {
@@ -406,7 +389,6 @@ body {
 #view-all {
   display: flex;
   text-decoration: none;
-  font-family: Open Sans, sans-serif;
   border-radius: 1.5rem;
   padding: 0.7rem 1.5rem;
   color: rgb(255, 255, 255);
@@ -444,14 +426,12 @@ body {
 }
 #offer h3 {
   font-size: 1.5rem;
-  font-family: Roboto, sans-serif;
   color: var(--clr-background);
   margin: 0;
   margin-bottom: 1rem;
 }
 #offer h1 {
   font-size: 2rem;
-  font-family: Arvo, sans-serif;
   margin: 0;
   color: white;
 }
@@ -468,7 +448,6 @@ body {
   outline: none;
   padding: 0.3rem 1.2rem;
   border: none;
-  font-family: Roboto, sans-serif;
   border-radius: 40px;
   font-size: 1.3rem;
   width: 50%;
@@ -477,7 +456,6 @@ body {
   font-size: 1.5rem;
   text-decoration: none;
   color: white;
-  font-family: Azeret Mono, sans-serif;
   background-color: var(--clr-background);
   border-radius: 40px;
   z-index: 3;
@@ -501,7 +479,6 @@ body {
 #contact-wrapper p {
   width: 70%;
   text-align: center;
-  font-family: Roboto, sans-serif;
   color: white;
 }
 #contact-bottom-link {
@@ -576,7 +553,6 @@ body {
   background-color: var(--clr-background);
 }
 #footer-wrapper {
-  font-family: Azeret Mono, sans-serif;
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;

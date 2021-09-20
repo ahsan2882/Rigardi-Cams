@@ -28,7 +28,6 @@
   margin: 0 auto;
 }
 header {
-  font-family: "Fira Sans", sans-serif;
   background-color: var(--clr-background);
   box-sizing: border-box;
   padding: 0.5em 0;
@@ -127,7 +126,6 @@ header {
   align-items: center;
   padding: 0;
   color: white;
-  font-family: "Fira Sans", sans-serif;
   list-style-type: none;
   font-weight: bolder;
 }
@@ -311,13 +309,11 @@ li {
 }
 #team-section h1 {
   font-size: 3rem;
-  /* font-family: Righteous, sans-serif; */
   margin: 0;
   color: var(--clr-primary);
 }
 #team-section p {
   font-size: 1.2rem;
-  /* font-family: Patua One, sans-serif; */
   text-align: center;
   margin-bottom: 3rem;
   color: var(--clr-background);
@@ -345,13 +341,11 @@ li {
 .speakers h2 {
   margin: 0;
   margin-top: 2rem;
-  font-family: Roboto, sans-serif;
   color: var(--clr-primary);
 }
 .speakers h4 {
   margin: 0;
   margin-bottom: 2rem;
-  font-family: Fira Sans Condensed, sans-serif;
   color: var(--clr-background);
 }
 .speaker-contact {
@@ -364,7 +358,6 @@ li {
 #view-all {
   display: flex;
   text-decoration: none;
-  font-family: Open Sans, sans-serif;
   border-radius: 1.5rem;
   padding: 0.7rem 1.5rem;
   color: var(--clr-background);
@@ -589,14 +582,12 @@ li {
 }
 #offer h3 {
   font-size: 1.5rem;
-  font-family: Roboto, sans-serif;
   color: var(--clr-background);
   margin: 0;
   margin-bottom: 1rem;
 }
 #offer h1 {
   font-size: 2rem;
-  font-family: Arvo, sans-serif;
   margin: 0;
   color: white;
 }
@@ -613,7 +604,6 @@ li {
   outline: none;
   padding: 0.3rem 1.2rem;
   border: none;
-  font-family: Roboto, sans-serif;
   border-radius: 40px;
   font-size: 1.3rem;
   width: 50%;
@@ -622,7 +612,6 @@ li {
   font-size: 1.5rem;
   text-decoration: none;
   color: white;
-  font-family: Azeret Mono, sans-serif;
   background-color: var(--clr-background);
   border-radius: 40px;
   z-index: 3;
@@ -646,7 +635,6 @@ li {
 #contact-wrapper p {
   width: 70%;
   text-align: center;
-  font-family: Roboto, sans-serif;
   color: white;
 }
 #contact-bottom-link {
@@ -672,7 +660,6 @@ li {
   background-color: var(--clr-background);
 }
 #footer-wrapper {
-  font-family: Azeret Mono, sans-serif;
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
