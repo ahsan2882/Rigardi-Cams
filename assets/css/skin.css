@@ -94,7 +94,7 @@ header {
 /*main navigation section*/
 #main-navigation {
   box-sizing: border-box;
-  background-image: url("img/gPeonv.jpg");
+  background-image: url("../../images/gPeonv.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -313,7 +313,7 @@ header {
   background-color: var(--clr-background);
 }
 #bg1 {
-  background-image: url("img/family-bg.png");
+  background-image: url("../../images/family-bg.png");
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: 20% auto;
@@ -321,7 +321,7 @@ header {
   display: flex;
 }
 #bg2 {
-  background: url("img/home-bg345.jpg");
+  background: url("../../images/home-bg345.jpg");
   background-repeat: no-repeat;
   background-size: 40rem;
   margin: 0;

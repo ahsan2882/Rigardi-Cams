@@ -94,7 +94,7 @@ header {
 }
 #main-navigation {
   box-sizing: border-box;
-  background-image: url("img/gPeonv.jpg");
+  background-image: url("../../images/gPeonv.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -164,18 +164,14 @@ header {
   border-radius: 5px;
   border: 2px solid black;
 }
-.services-links {
+.services-links,
+.sectors-link {
   display: flex;
   margin-left: 1rem;
   margin-top: 2rem;
 }
+.last-sector-link,
 .last-service-link {
-  margin-bottom: 2rem;
-}
-.sectors-link {
-  margin: 2rem 1rem 0 1rem;
-}
-.last-sector-link {
   margin-bottom: 2rem;
 }
 .services-links:hover .navigation-link-content,
@@ -204,7 +200,7 @@ header {
   text-align: center;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/blog_15-770x545.jpg);
+    url("../../images/blog_15-770x545.jpg");
 }
 .heading-hero {
   color: var(--clr-primary);
@@ -451,7 +447,7 @@ li {
 }
 
 .content {
-  background: url(images/clients-bg.png);
+  background: url("../../images/clients-bg.png");
   background-position: center;
   background-size: cover;
   width: 40ch;
