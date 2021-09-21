@@ -1182,7 +1182,7 @@ li {
   }
   .nav-bar {
     position: absolute;
-    left: 0;
+    left: -100%;
     top: 7rem;
     flex-direction: column;
     background-color: #fff;
