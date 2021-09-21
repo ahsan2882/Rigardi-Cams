@@ -550,7 +550,6 @@ header {
 }
 
 .accre-card {
-  max-width: 30ch;
   background-color: var(--clr-white-fonts);
   border-radius: 30px;
   margin: 20px;
@@ -874,9 +873,6 @@ li {
     width: 100%;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
-  }
-  .accre-card {
-    max-width: 15ch;
   }
   .card-contain h3 {
     font-size: 0.8rem;
