@@ -133,41 +133,54 @@ header {
   text-decoration: none;
   color: var(--clr-white-fonts);
 }
-.dropdown-services-content, .dropdown-sectors-content{
+.dropdown-services-content,
+.dropdown-sectors-content {
   display: none;
+  list-style-type: none;
+  padding: 0;
   position: absolute;
   z-index: 500;
 }
-.dropdown-service, .dropdown-sectors{
+.dropdown-service,
+.dropdown-sectors {
   cursor: pointer;
 }
-.dropdown-service, .dropdown-sectors{
+.dropdown-service,
+.dropdown-sectors {
   margin: 1rem 0;
 }
-.dropdown-service-list-item:hover .dropdown-services-content{
-  display: block;
-  background-color: white;
-  color: black;
-	border-radius: 5px;
-}
-
-.dropdown-sectors-list-item:hover .dropdown-sectors-content{
+.dropdown-service-list-item:hover .dropdown-services-content {
   display: block;
   background-color: white;
   color: black;
   border-radius: 5px;
+  border: 2px solid black;
 }
-.services-links{
-  margin: 2rem 1rem 0 1rem;
+
+.dropdown-sectors-list-item:hover .dropdown-sectors-content {
+  display: block;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid black;
 }
-.last-service-link{
+.services-links {
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.last-service-link {
   margin-bottom: 2rem;
 }
-.sectors-link{
+.sectors-link {
   margin: 2rem 1rem 0 1rem;
 }
-.last-sector-link{
+.last-sector-link {
   margin-bottom: 2rem;
+}
+.services-links:hover .navigation-link-content,
+.sectors-link:hover .navigation-link-content {
+  border-bottom: 1px solid black;
 }
 .hamburger {
   display: none;
