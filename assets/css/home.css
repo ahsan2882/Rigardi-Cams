@@ -136,6 +136,9 @@ header {
 .nav-bar-link:hover a {
   color: black;
 }
+.nav-bar-link:hover {
+  color: black;
+}
 .dropdown-services-content,
 .dropdown-sectors-content {
   display: none;
@@ -170,8 +173,7 @@ header {
 .services-links,
 .sectors-link {
   display: flex;
-  margin-left: 1rem;
-  margin-top: 2rem;
+  margin: 2rem 1rem 0 1rem;
 }
 .last-sector-link,
 .last-service-link {
@@ -227,6 +229,13 @@ header {
   background-color: var(--clr-primary);
   border-radius: 30px;
   border: 1px solid var(--clr-primary);
+  font-size: 1.5rem;
+  padding: 10px 40px;
+}
+.sec-btn:hover {
+  background-color: var(--clr-background);
+  border-radius: 30px;
+  border: 1px solid var(--clr-white-fonts);
   font-size: 1.5rem;
   padding: 10px 40px;
 }
@@ -807,8 +816,8 @@ li {
   margin-top: 1rem;
 }
 .post-btn:hover {
-  background-color: var(--clr-black-overlay);
-  color: var(--clr-white-fonts);
+  background-color: var(--clr-white-fonts);
+  color: var(--clr-background);
   border-radius: 20px;
   padding: 10px 15px;
   border: none;
@@ -1008,7 +1017,8 @@ li {
   opacity: 1;
 }
 .layer:hover #btn {
-  display: none;
+  display: block;
+  width: 33%;
 }
 .container-4 h4,
 .container-4 h2,
@@ -1172,7 +1182,7 @@ li {
   }
   .nav-bar {
     position: absolute;
-    left: -100%;
+    left: 0;
     top: 7rem;
     flex-direction: column;
     background-color: #fff;

@@ -110,7 +110,7 @@ header {
 #nav-logo {
   width: 13rem;
 }
-#nav-bar {
+.nav-bar {
   width: 40rem;
   display: flex;
   justify-content: space-between;
@@ -120,9 +120,15 @@ header {
   list-style-type: none;
   font-weight: bolder;
 }
-#nav-bar a {
+.nav-bar a {
   text-decoration: none;
   color: var(--clr-white-fonts);
+}
+.nav-bar-link:hover a {
+  color: black;
+}
+.nav-bar-link:hover {
+  color: black;
 }
 .dropdown-services-content,
 .dropdown-sectors-content {
@@ -155,18 +161,13 @@ header {
   border-radius: 5px;
   border: 2px solid black;
 }
-.services-links {
-  display: flex;
-  margin-left: 1rem;
-  margin-top: 2rem;
-}
-.last-service-link {
-  margin-bottom: 2rem;
-}
+.services-links,
 .sectors-link {
+  display: flex;
   margin: 2rem 1rem 0 1rem;
 }
-.last-sector-link {
+.last-sector-link,
+.last-service-link {
   margin-bottom: 2rem;
 }
 .services-links:hover .navigation-link-content,
@@ -577,7 +578,7 @@ header {
   }
 }
 @media (max-width: 800px) {
-  #nav-bar {
+  .nav-bar {
     position: absolute;
     left: -100%;
     top: 7rem;
@@ -604,7 +605,7 @@ header {
     -webkit-transform: translateY(-8px) rotate(-45deg);
     transform: translateY(-8px) rotate(-45deg);
   }
-  #nav-bar.active {
+  .nav-bar.active {
     left: 0;
   }
   .nav-bar-link {
