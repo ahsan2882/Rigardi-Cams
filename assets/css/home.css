@@ -92,21 +92,8 @@ header {
   justify-content: center;
   align-items: center;
 }
-#main-navigation {
-  box-sizing: border-box;
-  background-image: url("../../images/gPeonv.jpg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  background-repeat: no-repeat;
-}
 #nav-wrapper {
   background-color: var(--clr-primary-overlay);
-}
-#description-wrapper {
-  /* background-color: rgba(45, 125, 225, 0.8); */
-  background-color: var(--clr-black-overlay);
 }
 #main-nav {
   box-sizing: border-box;
@@ -241,34 +228,9 @@ header {
 }
 /* ---------------------------------------------------------------------------- Section Hero End ------------------------------------------------------- */
 
-.headings-price-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .pricing-sec {
   padding: 7rem 0;
   background-color: var(--clr-white-fonts);
-}
-.sub-head-price-main {
-  color: var(--clr-primary);
-  font-size: 1.4rem;
-  padding: 10px 0px;
-}
-
-.heading-price-main {
-  font-size: 2.5rem;
-  font-weight: 800;
-}
-.head-price-para {
-  font-size: 1rem;
-  padding: 10px 450px;
-  text-align: center;
-  line-height: 1.6;
-  color: black;
-}
-.small1 {
-  font-size: 0.3em;
 }
 .prize {
   display: flex;
@@ -302,19 +264,6 @@ header {
 #full-service li {
   color: var(--clr-white-fonts);
 }
-.price-card_content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-.price-card_content {
-  color: var(--clr-background);
-  text-align: center;
-  padding: 20px 0px;
-
-  line-height: 25px;
-}
 .price-cards-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -329,12 +278,20 @@ li {
 .line {
   padding: 20px;
 }
-.price-btn {
+.price-btn,
+.price-btn-full {
   background-color: var(--clr-primary);
   font-size: 1rem;
   border-radius: 30px;
   padding: 10px 35px;
   border: 2px solid var(--clr-primary);
+}
+.price-btn:hover {
+  background-color: black;
+  color: white;
+}
+.price-btn-full:hover {
+  background-color: white;
 }
 .pricing-three-cards {
   /* background-image:  linear-gradient(rgb(19, 19, 19),rgb(151, 151, 151)); */
